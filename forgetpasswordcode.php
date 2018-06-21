@@ -33,7 +33,7 @@ if(isset($_POST['send']))
           $mail->Host = gethostbyname('ssl://smtp.gmail.com');      // sets GMAIL as the SMTP server
           $mail->Port = 465;                   // set the SMTP port for the GMAIL server
           $mail->Username = 'grthayalan18@gmail.com';
-          $mail->Password = '1018@thayalan';
+          $mail->Password = 'Your password here';
           $mail->SetFrom('grthayalan18@gmail.com', 'Thaya');
           $mail->AddAddress($email);
           $mail->Subject = trim("Email Verifcation - TechnoKryon");
